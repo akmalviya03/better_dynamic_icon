@@ -4,7 +4,7 @@
 
 Change your app icon seamlessly
 
-[video.gif](video.gif)
+![video.gif](video.gif)
 
 ## Features
 1. Get list of all the available icons
