@@ -8,7 +8,6 @@ part 'better_dynamic_icon_platform_interface.dart';
 
 //Gives Access to the app icon change and fetch all icons
 class BetterDynamicIcon {
-
   //For android provide full path of the activity name
   //For ios provide app icon name
   Future<String?> changeAppIcon(String iconName) {
