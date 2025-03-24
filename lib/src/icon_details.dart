@@ -5,11 +5,14 @@ class IconDetails {
   ///Android -> Full Activity Name
   ///iOS -> AppIcon Name
   final String accessName;
+
   ///Android -> android:label provided inside activity
   ///iOS -> imageasset name
   final String label;
+
   ///Icon is currently active or not
   final bool enabled;
+
   ///Image data
   final Uint8List iconData;
 
