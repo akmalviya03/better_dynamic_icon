@@ -1,0 +1,29 @@
+name: better_dynamic_icon
+description: "A plugin which allows you to change app icon"
+version: 0.0.1
+homepage: https://github.com/akmalviya03/better_dynamic_icon.git
+
+environment:
+  sdk: ^3.6.1
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: in.abhishak.better_dynamic_icon
+        pluginClass: BetterDynamicIconPlugin
+      ios:
+        pluginClass: BetterDynamicIconPlugin
+
