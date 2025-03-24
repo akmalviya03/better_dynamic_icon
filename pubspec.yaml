@@ -1,6 +1,6 @@
 name: better_dynamic_icon
-description: "A plugin which allows you to change app icon"
-version: 0.0.1
+description: "A plugin which allows you to change app icon and view all the app icons available for the application."
+version: 0.0.1+1
 homepage: https://github.com/akmalviya03/better_dynamic_icon.git
 
 environment:
